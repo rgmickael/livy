@@ -6,3 +6,4 @@ Route::get('/counter', function () {
     return view('welcome');
 })->name('counter');
 Route::livewire('/calculator', 'pages::calculator')->name('calculator');
+Route::livewire('/todo-list', 'pages::todo-list')->name('todo-list');
